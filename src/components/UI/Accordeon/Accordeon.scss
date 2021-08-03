@@ -1,0 +1,12 @@
+.accordeon-info {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .3s linear;
+}
+.accordeon-open {
+    height: auto;
+    overflow: auto;
+    opacity: 1;
+    transition: all .3s linear;
+}

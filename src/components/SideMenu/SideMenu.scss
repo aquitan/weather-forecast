@@ -1,0 +1,14 @@
+.side-menu {
+    height: 100vh;
+    width: 300px;
+    background: linear-gradient(360deg, rgba(189,116,245,1) 0%, rgba(202,255,246,1) 46%, rgba(254,138,247,1) 100%);
+    position: absolute;
+    left: -300px;
+    top: 0;
+    transition: all .3s linear;
+    padding: 20px;
+}
+.side-menu-active {
+    left: 0;
+    transition: all .3s linear
+}

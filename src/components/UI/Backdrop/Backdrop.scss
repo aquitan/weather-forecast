@@ -1,0 +1,12 @@
+.backdrop-icon {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: all .3s linear
+}
+.backdrop-icon-active {
+    left: 320px;
+    transition: all .3s linear
+}
